@@ -1,0 +1,1 @@
+#include<stdio.h>#include<string.h>#include<ctype.h>void main(){char a[15],c[15],j=0,k=0;int i,n;scanf("%s",a);n=strlen(a);for(i=n;i>=0;i--){if(isalpha(a[i])||isdigit(a[i])){c[j]=a[i];j++;}}for(i=0;i<j;i++)printf("%c",c[i]);}
